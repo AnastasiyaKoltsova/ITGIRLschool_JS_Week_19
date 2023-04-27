@@ -17,3 +17,22 @@ h1,
 h2 {
     color: rgb(252, 122, 144);
 }
+
+.container-newpost {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vw;
+    margin-bottom: 4vh;
+}
+
+.input-header,
+.input-post,
+.btn-newpost {
+    padding: 15px 10px;
+}
+
+.btn-newpost {
+    background-color: rgb(247, 98, 122);
+    color: white;
+    cursor: pointer;
+}
