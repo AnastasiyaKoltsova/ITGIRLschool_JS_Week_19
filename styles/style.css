@@ -14,8 +14,18 @@ h1 {
 }
 
 h1,
-h2 {
+h2,
+a {
     color: rgb(252, 122, 144);
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color: blue;
 }
 
 .container-newpost {
